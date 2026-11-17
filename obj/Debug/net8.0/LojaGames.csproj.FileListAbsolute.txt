@@ -120,3 +120,12 @@ C:\Users\User\OneDrive\Desktop\LojaGames\obj\Debug\net8.0\refint\LojaGames.dll
 C:\Users\User\OneDrive\Desktop\LojaGames\obj\Debug\net8.0\LojaGames.pdb
 C:\Users\User\OneDrive\Desktop\LojaGames\obj\Debug\net8.0\LojaGames.genruntimeconfig.cache
 C:\Users\User\OneDrive\Desktop\LojaGames\obj\Debug\net8.0\ref\LojaGames.dll
+C:\Users\User\OneDrive\Desktop\Nova pasta\Loja-de-videogame\obj\Debug\net8.0\LojaGames.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\Nova pasta\Loja-de-videogame\obj\Debug\net8.0\LojaGames.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\Nova pasta\Loja-de-videogame\obj\Debug\net8.0\LojaGames.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\Nova pasta\Loja-de-videogame\obj\Debug\net8.0\LojaGames.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\Nova pasta\Loja-de-videogame\obj\Debug\net8.0\LojaGames.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Nova pasta\Loja-de-videogame\obj\Debug\net8.0\LojaGames.sourcelink.json
+C:\Users\User\OneDrive\Desktop\Nova pasta\Loja-de-videogame\obj\Debug\net8.0\LojaGames.dll
+C:\Users\User\OneDrive\Desktop\Nova pasta\Loja-de-videogame\obj\Debug\net8.0\refint\LojaGames.dll
+C:\Users\User\OneDrive\Desktop\Nova pasta\Loja-de-videogame\obj\Debug\net8.0\LojaGames.pdb

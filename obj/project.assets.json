@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net8.0-windows7.0": {
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Humanizer.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -18,7 +18,7 @@
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+          "lib/netstandard2.1/_._": {
             "related": ".xml"
           }
         },
@@ -44,7 +44,7 @@
           "System.Text.Encoding.CodePages": "6.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll": {
+          "lib/netcoreapp3.1/_._": {
             "related": ".pdb;.xml"
           }
         },
@@ -101,7 +101,7 @@
           "Microsoft.CodeAnalysis.Common": "[4.5.0]"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll": {
+          "lib/netcoreapp3.1/_._": {
             "related": ".pdb;.xml"
           }
         },
@@ -161,7 +161,7 @@
           "Microsoft.CodeAnalysis.Workspaces.Common": "[4.5.0]"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll": {
+          "lib/netcoreapp3.1/_._": {
             "related": ".pdb;.xml"
           }
         },
@@ -223,7 +223,7 @@
           "System.Threading.Channels": "6.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll": {
+          "lib/netcoreapp3.1/_._": {
             "related": ".pdb;.xml"
           }
         },
@@ -344,7 +344,7 @@
           "Mono.TextTemplating": "2.2.1"
         },
         "compile": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Design.dll": {
+          "lib/net8.0/_._": {
             "related": ".xml"
           }
         },
@@ -603,7 +603,7 @@
           "System.CodeDom": "4.4.0"
         },
         "compile": {
-          "lib/netstandard2.0/Mono.TextTemplating.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
@@ -734,16 +734,16 @@
           "SQLitePCLRaw.core": "2.1.6"
         },
         "compile": {
-          "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+          "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         },
         "runtime": {
-          "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+          "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.CodeDom.dll": {
+          "ref/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
@@ -757,7 +757,7 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Collections.Immutable.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -786,7 +786,7 @@
       "System.Composition.AttributedModel/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Composition.AttributedModel.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -805,7 +805,7 @@
           "System.Composition.AttributedModel": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Composition.Convention.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -824,7 +824,7 @@
           "System.Composition.Runtime": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Composition.Hosting.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -840,7 +840,7 @@
       "System.Composition.Runtime/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Composition.Runtime.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -861,7 +861,7 @@
           "System.Composition.Runtime": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Composition.TypedParts.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -877,7 +877,7 @@
       "System.IO.Pipelines/6.0.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.IO.Pipelines.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -905,7 +905,7 @@
           "System.Collections.Immutable": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Reflection.Metadata.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -921,7 +921,7 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -940,7 +940,7 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -1003,7 +1003,7 @@
       "System.Threading.Channels/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Threading.Channels.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -2520,7 +2520,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net8.0-windows7.0": [
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.0"
     ]
@@ -2532,11 +2532,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\LojaGames\\LojaGames.csproj",
+      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\Nova pasta\\Loja-de-videogame\\LojaGames.csproj",
       "projectName": "LojaGames",
-      "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\LojaGames\\LojaGames.csproj",
+      "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\Nova pasta\\Loja-de-videogame\\LojaGames.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\LojaGames\\obj\\",
+      "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\Nova pasta\\Loja-de-videogame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2547,7 +2547,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net8.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -2555,8 +2555,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "projectReferences": {}
         }
       },
@@ -2573,10 +2573,12 @@
       "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.0, )"
           },
@@ -2599,6 +2601,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
@@ -2613,7 +2618,7 @@
       "message": "Package 'Microsoft.Extensions.Caching.Memory' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-qj66-m88j-hmgj",
       "libraryId": "Microsoft.Extensions.Caching.Memory",
       "targetGraphs": [
-        "net8.0"
+        "net8.0-windows7.0"
       ]
     },
     {
@@ -2623,7 +2628,7 @@
       "message": "Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.6 has a known high severity vulnerability, https://github.com/advisories/GHSA-2m69-gcr7-jv3q",
       "libraryId": "SQLitePCLRaw.lib.e_sqlite3",
       "targetGraphs": [
-        "net8.0"
+        "net8.0-windows7.0"
       ]
     },
     {
@@ -2633,7 +2638,7 @@
       "message": "Package 'System.Text.Json' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
       "libraryId": "System.Text.Json",
       "targetGraphs": [
-        "net8.0"
+        "net8.0-windows7.0"
       ]
     },
     {
@@ -2643,7 +2648,7 @@
       "message": "Package 'System.Text.Json' 8.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
       "libraryId": "System.Text.Json",
       "targetGraphs": [
-        "net8.0"
+        "net8.0-windows7.0"
       ]
     }
   ]

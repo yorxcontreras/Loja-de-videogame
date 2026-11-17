@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive\\Desktop\\LojaGames\\LojaGames.csproj": {}
+    "C:\\Users\\User\\OneDrive\\Desktop\\Nova pasta\\Loja-de-videogame\\LojaGames.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive\\Desktop\\LojaGames\\LojaGames.csproj": {
+    "C:\\Users\\User\\OneDrive\\Desktop\\Nova pasta\\Loja-de-videogame\\LojaGames.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\LojaGames\\LojaGames.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\Nova pasta\\Loja-de-videogame\\LojaGames.csproj",
         "projectName": "LojaGames",
-        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\LojaGames\\LojaGames.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\Nova pasta\\Loja-de-videogame\\LojaGames.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\LojaGames\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\Nova pasta\\Loja-de-videogame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {}
           }
         },
@@ -48,10 +48,12 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
             },
@@ -74,6 +76,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
